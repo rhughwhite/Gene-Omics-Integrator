@@ -1,0 +1,19 @@
+Package: Gene-Omics-Integrator
+Type: Package
+Title: Multimodal Statistical Functions
+Version: 0.1.0
+Author: creator("Rupert", "Hugh-White", email = "rupert.hugh.white@gmail.com", role = c("aut", "cre"))
+Description: Functions for integrating multimodal data.
+    Includes functions for calculating mutual information and performing permutation-based signficance testing.
+Depends: R (>= 3.0.2)
+Imports:
+	BoutrosLab.plotting.general (>= 6.0.3),
+	doParallel (>= 1.0.15),
+	entropy (>= 1.2.1),
+	foreach (>= 1.5.0),
+	Hmisc (>= 4.5-0),
+	RNOmni (>= 1.0.0),
+	tidyr (>= 1.1.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
